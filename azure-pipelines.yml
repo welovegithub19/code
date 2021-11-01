@@ -10,6 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- script: echo $้home
 - task: AzureCLI@2
   inputs:
     azureSubscription: 'Azure-Metro-Poc(4ef54153-a9b0-454d-8153-c16b7fffcece)'
