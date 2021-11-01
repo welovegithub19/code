@@ -16,3 +16,4 @@ steps:
     azureSubscription: 'Azure-Metro-Poc(4ef54153-a9b0-454d-8153-c16b7fffcece)'
     scriptType: 'batch'
     scriptLocation: 'inlineScript'
+    inlineScript: az group deployment validate --resource-group rg-bicep-sharedservices-network-001 --template-file 'Network/Templates/NSG.bicep'
